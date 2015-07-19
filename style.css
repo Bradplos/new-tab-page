@@ -1,0 +1,129 @@
+/*
+* www.github.com/bradplos/new-tab-page
+*/
+
+/* table_of_contents
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+- HTML ELEMTENT CHANGES
+- CATEGORY TITLES
+- LINKS
+- SEPERATOR [>>]
+- SEPERATOR [-]
+- SEARCH INPUT
+- SEARCH FORM
+- CONTAINER
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+
+/* HTML ELEMENT CHANGES
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+span
+{
+	font-family: monospace; /* changes the general font ie. title, seperators 1&2, link */
+}
+
+a
+{
+	text-decoration: none;
+}
+
+body
+{
+	background-color: #424242;
+}
+
+/* CATEGORY TITLES
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.title
+{
+	color: #7986cb;
+	font-weight: bold;
+	font-size:0.875rem;
+}
+
+/* LINKS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.link
+{
+	color: #bdbdbd;
+	font-size:1rem;
+}
+
+/* SEPERATOR [>>]
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.seperator-1
+{
+	color: #5c6bc0;
+	font-size:1rem;
+}
+
+/* SEPERATOR [-]
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.seperator-2
+{
+	color: #5c6bc0;
+	font-size:1rem;
+}
+
+/* SEARCh INPUT
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.search
+{
+	border:none; /*removes the white border around input*/
+	height:2rem;
+	width:100%; /*leave as-is to fill bar*/
+	background-color:transparent;
+	color:#bdbdbd;
+	padding-left :.5rem;
+	padding-right:.5rem;
+		-webkit-box-sizing: border-box; /*box-sizing - leave as-is*/
+       -moz-box-sizing: border-box; /* ^ */
+            box-sizing: border-box; /* ^ */
+}
+
+/* SEARCH FORM
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.search-bar
+{
+	max-width:38rem;
+	border-bottom: solid .25vh #7986cb; /*adds the colored bar at the bottom of the search*/
+}
+
+/* CONTAINER
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container
+{
+	width:85%;
+	margin:0 auto;
+	padding:0;
+}
+
+@media (min-width: 25.000em) {
+	.container{
+		width:85%;
+	}
+}
+
+@media (min-width: 34.375em) {
+	.container{
+		width:80%;
+	}
+}
+
+@media (min-width: 46.875em) {
+	.container{
+		width:38rem;
+	}
+}
+
+@media (min-width: 62.500em) {
+	.container{
+		width:38rem;
+	}
+}
+
+@media (min-width: 75.000em) {
+	.container{
+		width:38rem;
+	}
+}
