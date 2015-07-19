@@ -66,7 +66,7 @@ And change the insides of `action=" "` to your desired search service. Google is
 
 ### Download
 To download new-tab-page, either
-- [Download the zip](https://github.com/bradplos/new-tab-page/)
+- [Download the zip](https://github.com/Bradplos/new-tab-page/archive/master.zip)
 - Clone the repo: `git clone https://github.com/bradplos/new-tab-page.git`
 
 
