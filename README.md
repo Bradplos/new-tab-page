@@ -1,6 +1,6 @@
 #new-tab-page
 
-new-tab-page is a simple, customisable offline browser site which allows you to create a quickly accessiable list of websites. new-tab-page uses a text-format model, meaning that all links are visible to you, allowing for quicker navigation to your a desired website.
+new-tab-page is a simple, customisable offline browser site which allows you to create a quickly accessible list of websites. new-tab-page uses a text-format model, meaning that all links are visible to you, allowing for quicker navigation to your a desired website.
 
 <br>
 ## Configuration
