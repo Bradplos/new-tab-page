@@ -36,18 +36,6 @@ $('#yahoo').attr('href','https://yahoo.com');
 $('#bing').attr('href','https://bing.com');
 ```
 
-#### CSS
-| class             | what it does                                                  |
-| ----------------- | --------------------------------------------------------------|
-| span              | changes the font-family                                       |
-| .title            | changes the color, font-weight, and font-size of the title    |
-| .link             | changes the color and font-size of the links                  |
-| .seperator-1      | changes the color and font-size of the >>                     |
-| .seperator-2      | changes the color and font-size of the -                      |
-| .search           | changes the width and background-color of the search input    |
-| .search-bar       | changes the width and border-bottom of the search bar         |
-| .container        | changes the margin and width dynamically of any element       |
-
 #### Change the Search service
 Find
 ```
