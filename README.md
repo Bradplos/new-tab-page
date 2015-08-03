@@ -22,7 +22,6 @@ Links are created like this after your category, where __EXAMPLE__ is your link 
 
 <a id="bing"><span class="link">EXAMPLE</span></a>
   <span class="seperator-2">-</span>
-
 ```
 
 #### JS
@@ -39,11 +38,9 @@ $('#bing').attr('href','https://bing.com');
 #### Change the Search service
 Find
 ```
-<form method="get" action="https://www.google.com/#q=" class="search-bar">
-  <input autocomplete="off" class="search" type="text" name="q"/>
-</form>
+<form method="get" action="https://www.startpage.com/do/search?q=" class="search-bar">
 ```
-And change the insides of `action=" "` to your desired search service. Google is active by default.
+And change the insides of `action=" "` to your desired search service. Startpage is active by default.
 
 - Google: `https://www.google.com/#q=`
 - Startpage: `https://www.startpage.com/do/search?q=`
@@ -73,13 +70,11 @@ new-tab-page/
 ##### To set as a homepage
 - Open a new tab __->__ go to 'about:preferences' __->__ General __->__ Startup __->__ Home Page: __->__ Set as your_folder_location/new-tab-page/index.html
 
-i.e. `C:\Users\Bradplos\Documents\new-tab-page\index.html`
 
 #####To set as a new tab
 - Open a new tab __->__ go to 'about:config' __->__ search for 'browser.newtab.url' __->__ set as your_folder_location/new-tab-page/index.html
 
-i.e. `C:\Users\Bradplos\Documents\new-tab-page\index.html`
 
 <br>
 ## License
-All of new-tab-page is free to use and abuse under the [open-source MIT license](https://github.com/bradplos/new-tab-page/blob/master/LICENSE.md).
+All of new-tab-page is free to use and abuse under the [open-source MIT license](https://raw.githubusercontent.com/Bradplos/new-tab-page/master/LICENSE).
