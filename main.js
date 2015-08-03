@@ -4,13 +4,17 @@
 
 window.onload = getLink;
 
-/* ADDS HREF ELEMENT TO AN ID
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+//––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// ADDS HREF ELEMENT TO AN ID
+//––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
 function getLink()
 {
 
-  /* CODE [CODE]
-  –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+  //--------------------------------------------------
+  //CODE [CODE]
+  //--------------------------------------------------
+
   $('#jsfiddle').attr('href','https://jsfiddle.net');
   $('#pastebin').attr('href','https://pastebin.com/');
   $('#github').attr('href','https://github.com');
@@ -23,8 +27,10 @@ function getLink()
   $('#dev-js').attr('href','https://developer.mozilla.org/en-US/docs/Web/JavaScript');
   $('#dev-cpp').attr('href','http://cplusplus.com/doc/tutorial/');
 
-/* REDDIT [RDDT]
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+//--------------------------------------------------
+// REDDIT [RDDT]
+//--------------------------------------------------
+
   $('#rddt').attr('href','https://reddit.com');
   $('#rddt-pcmr').attr('href','https://reddit.com/r/pcmasterrace');
   $('#rddt-adva').attr('href','https://reddit.com/r/adviceanimals');
@@ -36,8 +42,10 @@ function getLink()
   $('#rddt-gw2').attr('href','https://reddit.com/r/guildwars2');
   $('#rddt-eve').attr('href','https://reddit.com/r/eve');
 
-  /* #_CHANS [CHAN]
-  –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+  //--------------------------------------------------
+  // #CHANS [CHAN]
+  //--------------------------------------------------
+
   $('#4c-g').attr('href','https://boards.4chan.org/g/');
   $('#4c-wg').attr('href','https://boards.4chan.org/wg/');
   $('#8c-tech').attr('href','https://8ch.net/tech/');
@@ -46,8 +54,10 @@ function getLink()
   $('#8c-rice').attr('href','https://8ch.net/rice/');
   $('#8c-wg').attr('href','https://8ch.net/wg/');
 
-  /* NEWS [NEWS]
-  –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+  //--------------------------------------------------
+  // NEWS [NEWS]
+  //--------------------------------------------------
+
   $('#bbc').attr('href','https://bbc.com/');
   $('#ars').attr('href','https://arstechnica.com/');
   $('#tnw').attr('href','https://thenextweb.com/');
@@ -55,27 +65,35 @@ function getLink()
   $('#medium').attr('href','https://medium.com/top-stories');
   $('#hacker').attr('href','https://news.ycombinator.com/');
 
-  /* SOCIAL [SOCL]
-  –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+  //--------------------------------------------------
+  // SOCIAL [SOCL]
+  //--------------------------------------------------
+
   $('#twitter').attr('href','https://twitter.com/');
   $('#tumblr').attr('href','https://tumblr.com');
   $('#ello').attr('href','https://ello.co');
 
-  /* MEDIA [MDIA]
-  –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+  //--------------------------------------------------
+  // MEDIA [MDIA]
+  //--------------------------------------------------
+
   $('#imgur').attr('href','https://imgur.com/hot/time');
   $('#youtube').attr('href','https://youtube.com/feed/subscriptions');
   $('#twitch').attr('href','http://twitch.tv');
   $('#netflix').attr('href','https://netflix.com');
 
-  /* GAMES [GMES]
-  –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+  //--------------------------------------------------
+  // GAMES [GMES]
+  //--------------------------------------------------
+
   $('#kong').attr('href','https://kongregate.com/');
   $('#gw2-meta').attr('href','http://metabattle.com/wiki/MetaBattle_Wiki');
   $('#gw2-timer').attr('href','http://howar31.com/GW2Timer/');
 
-  /* LEARNING [LERN]
-  –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+  //--------------------------------------------------
+  // LEARNING [LERN]
+  //--------------------------------------------------
+
   $('#wolfram').attr('href','http://wolframalpha.com/');
   $('#desmos').attr('href','http://desmos.com/calculator');
   $('#khan').attr('href','https://khanacademy.org/');
@@ -84,8 +102,10 @@ function getLink()
   $('#dictionary').attr('href','http://dictionary.reference.com/');
   $('#thesaurus').attr('href','http://thesaurus.com/');
 
-  /* UTILITIES [UTIL]
-  –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+  //--------------------------------------------------
+  // UTILITIES [UTIL]
+  //--------------------------------------------------
+
   $('#amazon').attr('href','https://amazon.com');
   $('#humble').attr('href','https://humblebundle.com/');
   $('#gmail').attr('href','https://mail.google.com/mail/u/0/?pli=1#inbox');
